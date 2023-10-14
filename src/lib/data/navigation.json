@@ -1,0 +1,38 @@
+{
+    "logo": {
+        "name": "Ibán",
+        "surname": "López"
+    },
+    "navlinks": [
+        {
+            "id": 0,
+            "name": "Presentación",
+            "href": "#initial",
+            "title": "Ver presentación"
+        },
+        {
+            "id": 1,
+            "name": "Carrera profesional",
+            "href": "#resume",
+            "title": "Ver carrera"
+        },
+        {
+            "id": 2,
+            "name": "Estudios",
+            "href": "#education",
+            "title": "Ver estudios"
+        },
+        {
+            "id": 3,
+            "name": "Conocimientos",
+            "href": "#skills",
+            "title": "Ver conocimientos"
+        },
+        {
+            "id": 4,
+            "name": "Servicios",
+            "href": "#services",
+            "title": "Ver servicios"
+        }
+    ]
+}
