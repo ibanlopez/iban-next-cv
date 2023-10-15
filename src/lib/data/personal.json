@@ -1,0 +1,41 @@
+{
+    "header": {
+        "name": "Ibán López",
+        "role": "Desarrollador Front end"
+    },
+    "content": {
+        "heading": {
+            "text": "Sobre",
+            "accent": "mí"
+        },
+        "text": "¡Hola! Soy Ibán. Me dedico al desarrollo web desde hace más de 10 años. Mi especialidad es web performance (rendimiento web) o la experiencia de usuario en el front end. Trabajo con tecnologías actuales basadas en Jamstack: React, Next.js, Node.js. En esta web te cuento más, si tienes alguna duda, pregunta.",
+        "list": [
+            {
+                "id": 0,
+                "prop": "Edad",
+                "value": "51"
+            },
+            {
+                "id": 1,
+                "prop": "Residencia",
+                "value": "Rocafort (Valencia)"
+            },
+            {
+                "id": 2,
+                "prop": "Email",
+                "value": "lopez.iban@gamil.com"
+            },
+            {
+                "id": 3,
+                "prop": "Teléfono",
+                "value": "+34 601 11 44 65"
+            },
+            {
+                "id": 4,
+                "prop": "Freelance",
+                "value": "Disponible"
+            }
+            
+        ]
+    }
+}

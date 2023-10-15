@@ -7,8 +7,8 @@ export default function Logo({
 }) {
     return (
         <div className="flex-initial">
-            <h1 className="text-white font-bold ml-4 lg:text-black lg:ml-0 lg:text-xl lg:font-semibold">
-                {name} <span className="lg:text-emerald-500">{surname}</span>
+            <h1 className="text-white font-bold ml-4 lg:text-black lg:ml-0 lg:text-xl lg:font-semibold xl:text-2xl">
+                {name} <span className="lg:text-indigo-500">{surname}</span>
             </h1>
         </div>
     )

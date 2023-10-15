@@ -6,7 +6,11 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header-bg': "url('/img/fondo-cabecera.png')",
+      }
+    },
   },
   plugins: [],
 }

@@ -4,9 +4,9 @@ export default function NavLinks({
     navlinks
 }: {
     navlinks: {
-        id: number,
-        name: string,
-        href: string,
+        id: number
+        name: string
+        href: string
         title: string
     }[]
 }) {

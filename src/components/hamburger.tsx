@@ -29,7 +29,7 @@ const Hamburger = ({ children }: { children: React.ReactNode }) => {
                 )}
             </button>
             <Transition
-                className="flex-initial w-screen max-w-screen h-screen fixed top-[48px] bg-emerald-500"
+                className="flex-initial w-screen max-w-screen h-screen fixed top-[48px] bg-indigo-500"
                 id="navList"
                 show={show}
                 enter="transition-transform ease-linear duration-300"
