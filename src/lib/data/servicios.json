@@ -1,0 +1,30 @@
+{
+    "heading": {
+        "text": "Mis",
+        "accent": "servicios"
+    },
+    "services": [
+        {
+            "id": 0,
+            "title": "Desarrollo Web",
+            "image": "/img/desarrollo-web.png",
+            "imgRounded": false,
+            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+        },
+        {
+            "id": 1,
+            "title": "Auditorías Web",
+            "image": "/img/auditorias-web.png",
+            "imgRounded": false,
+            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+        },
+        {
+            "id": 2,
+            "title": "Conferencias y talleres",
+            "image": "/img/conferencias.jpg",
+            "imgRounded": true,
+            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+        }
+        
+    ]
+}

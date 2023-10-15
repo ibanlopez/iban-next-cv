@@ -39,7 +39,7 @@ type Education = {
     "title": string,
     "cards": [
         {
-            "id": number,
+            "id": number
             "title": string
             "date": string
             "company": string
@@ -52,10 +52,26 @@ type Career = {
     "title": string,
     "cards": [
         {
-            "id": number,
+            "id": number
             "title": string
             "date": string
             "company": string
+            "text": string
+        }
+    ]
+}
+
+type Services = {
+    "heading": {
+        "text": string
+        "accent": string
+    },
+    "services": [
+        {
+            "id": number
+            "title": string
+            "image": string
+            "imgRounded": boolean
             "text": string
         }
     ]

@@ -25,11 +25,11 @@ export default async function Personal() {
             <div className="w-[240px] h-[240px] md:w-[280px] md:h-[280px] lg:w-[284px] lg:h-[284px] lg:border-2 lg:border-white lg:translate-y-8 lg:shadow-md lg:shadow-gray-400 lg:hover:translate-y-7 lg:hover:shadow-lg lg:hover:shadow-gray-500 lg:transition-all lg:duration-300">
                 <Image src={pic} alt="Foto de Ibán López" className="rounded-full lg:rounded-none" />
             </div>
-            <div className="text-white pt-8 text-center md:grow">
-                <h2 className="text-4xl lg:text-5xl font-bold mb-6">{data.header.name}</h2>
-                <p className="text-lg lg:text-2xl lg:font-light">{data.header.role}</p>
+            <div className="text-white flex flex-col pt-8 text-center md:grow">
+                <h1 className="order-2 text-lg lg:text-2xl lg:font-light">{data.header.role}</h1>
+                <p className="order-1 text-4xl lg:text-5xl font-bold mb-6">{data.header.name}</p>
                 <a
-                    className="pt-6 text-center inline-block"
+                    className="order-3 pt-6 self-center inline-block"
                     href="https://linkedin.com/in/ibanlopez/"
                     title="Perfil de LinkedIn"
                     rel="noopener noreferrer"
@@ -40,12 +40,12 @@ export default async function Personal() {
         </div>
         <div className="bg-white w-full h-full py-8 flex flex-col md:flex-row md:flex-nowrap lg:py-12 px-6 lg:px-12">
             <div className="flex-initial md:basis-1/2">
-                <h3 className="text-black font-bold text-2xl mb-4">
+                <h2 className="text-black font-bold text-2xl mb-4">
                     {`${data.content.heading.text} `}
                     <span className="text-indigo-500">
                         {data.content.heading.accent}
                     </span>
-                </h3>
+                </h2>
                 <p className="text-sm mb-6 md:text-md">
                     {data.content.text}
                 </p>

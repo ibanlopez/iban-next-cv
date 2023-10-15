@@ -1,7 +1,7 @@
 {
     "header": {
         "name": "Ibán López",
-        "role": "Desarrollador Front end"
+        "role": "Desarrollador web Front end"
     },
     "content": {
         "heading": {
@@ -23,7 +23,7 @@
             {
                 "id": 2,
                 "prop": "Email",
-                "value": "lopez.iban@gamil.com"
+                "value": "lopez.iban@gmail.com"
             },
             {
                 "id": 3,

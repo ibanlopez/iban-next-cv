@@ -18,21 +18,15 @@
         },
         {
             "id": 2,
-            "name": "Estudios",
-            "href": "#",
-            "title": "Ver estudios"
+            "name": "Servicios",
+            "href": "servicios",
+            "title": "Ver servicios"
         },
         {
             "id": 3,
-            "name": "Conocimientos",
+            "name": "Porfolio",
             "href": "#",
-            "title": "Ver conocimientos"
-        },
-        {
-            "id": 4,
-            "name": "Servicios",
-            "href": "#",
-            "title": "Ver servicios"
+            "title": "Ver profolio"
         }
     ]
 }
