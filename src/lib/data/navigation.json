@@ -7,31 +7,31 @@
         {
             "id": 0,
             "name": "Presentación",
-            "href": "#initial",
+            "href": "/",
             "title": "Ver presentación"
         },
         {
             "id": 1,
             "name": "Carrera profesional",
-            "href": "#resume",
+            "href": "trabajo",
             "title": "Ver carrera"
         },
         {
             "id": 2,
             "name": "Estudios",
-            "href": "#education",
+            "href": "#",
             "title": "Ver estudios"
         },
         {
             "id": 3,
             "name": "Conocimientos",
-            "href": "#skills",
+            "href": "#",
             "title": "Ver conocimientos"
         },
         {
             "id": 4,
             "name": "Servicios",
-            "href": "#services",
+            "href": "#",
             "title": "Ver servicios"
         }
     ]

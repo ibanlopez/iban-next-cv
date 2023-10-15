@@ -30,7 +30,9 @@ export default function RootLayout({
     <html lang="es" className="overflow-x-hidden">
       <body className={`${inter.className} relative overflow-x-hidden min-h-screen flex flex-col flex-wrap max-w-screen bg-slate-100`}>
         <Header />
-        {children}
+        <main className="grow pt-10 px-4">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

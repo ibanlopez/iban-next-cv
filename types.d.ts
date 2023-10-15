@@ -34,3 +34,29 @@ type Personal = {
         ]
     }
 }
+
+type Education = {
+    "title": string,
+    "cards": [
+        {
+            "id": number,
+            "title": string
+            "date": string
+            "company": string
+            "text": string
+        }
+    ]
+}
+
+type Career = {
+    "title": string,
+    "cards": [
+        {
+            "id": number,
+            "title": string
+            "date": string
+            "company": string
+            "text": string
+        }
+    ]
+}

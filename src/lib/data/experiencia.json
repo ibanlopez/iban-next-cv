@@ -1,0 +1,47 @@
+{
+    "title": "Experiencia profesional",
+    "cards": [
+        {
+            "id": 0,
+            "title": "Product manager, representante grandes cuentas",
+            "date": "1992 - 2010 (18 años)",
+            "company": "Varias empresas",
+            "text": "Desarrollando mi carrera profesional en 8 empresas diferentes, cubriendo varios puestos técnicos o de venta técnica."
+        },
+        {
+            "id": 1,
+            "title": "Blogger y SEO",
+            "date": "mar. 2011 - ago. 2012. (1 año y 6 meses)",
+            "company": "Elixir Comunicació, SL",
+            "text": "Escribiendo artículos para una web de tráfico intenso y como SEO mejorando el posicionamiento en Google."
+        },
+        {
+            "id": 2,
+            "title": "Becario en formación",
+            "date": "dic. 2012 - mar. 2013. (4 meses)",
+            "company": "Marketing Online Valencia, SL",
+            "text": "Analizando proyectos SEO y aplicando conocimientos aprendidos en el Máster SEO."
+        },
+        {
+            "id": 3,
+            "title": "Consultor SEO, desarrollador web",
+            "date": "jun. 2013 - dic. 2013 (7 meses)",
+            "company": "SeologikLab, SL",
+            "text": "Socio fundador, CTO, desarrollador web, WordPress, Web performance."
+        },
+        {
+            "id": 4,
+            "title": "Conferenciante, comunicador y docente",
+            "date": "2013 - 2018",
+            "company": "Eventos organizados",
+            "text": "Taller SEO (Valencia), Congreso SEO Profesional (Madrid), Ensalada SEO (Zaragoza), WordPress Valencia. Evangelizando sobre WPO, SEO y dando talleres técnicos."
+        },
+        {
+            "id": 5,
+            "title": "Desarrollador web especialista en WPO",
+            "date": "ene. 2014 - actualidad (10 años)",
+            "company": "Freelance",
+            "text": "Desarrollando proyectos web para empresas y colaborando como developer para agencias de marketing."
+        }
+    ]
+}

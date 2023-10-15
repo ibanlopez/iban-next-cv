@@ -2,6 +2,7 @@ import { promises as fs } from 'fs'
 import Image from "next/image";
 import pic from "./iban-lopez.jpg";
 import IconLinkedin from "@/components/icons/icon-linkedin";
+import DownloadCv from '@/components/download-cv';
 
 export default async function Personal() {
 
@@ -48,13 +49,7 @@ export default async function Personal() {
                 <p className="text-sm mb-6 md:text-md">
                     {data.content.text}
                 </p>
-                <a 
-                    className="inline-block w-[150px] text-center text-sm text-white mr-4 mb-6 py-2 px-4 rounded-full border-0 font-semibold bg-indigo-500 hover:bg-violet-100 hover:text-indigo-500 transition-all duration-300 md:mb-0"
-                    href={'/files/cv-iban-lopez.pdf'}
-                    title="Descargar CV"
-                >
-                    Descargar CV
-                </a>
+                <DownloadCv />
             </div>
             <ul className="flex-initial md:grow md:flex md:flex-col md:justify-center md:align-middle">
                 {list}

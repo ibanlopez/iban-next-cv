@@ -1,0 +1,42 @@
+export default function CardList({
+    title,
+    cards
+}: {
+    title: string
+    cards: [
+        {
+            id: number,
+            title: string
+            date: string
+            company: string
+            text: string
+        }
+    ]
+}) {
+
+    const compareNumbers = (a: number, b: number): number => (a - b)
+
+    const reversed = cards.sort((current, next) => compareNumbers(next.id, current.id))
+
+    const cardList = reversed.map(item => (
+        <div 
+            key={item.id}
+            className="relative border border-gray-200 p-4 mb-6 border-l-2 border-l-indigo-500 last-of-type:mb-12">
+                <h4 className="text-base font-bold mb-1">{item.title}</h4>
+                <p className="text-xs mb-4 text-gray-400"><span className="text-indigo-500">{item.date}</span> | <span className="text-neutral-400">{item.company}</span></p>
+                <p className="text-sm">{item.text}</p>
+                <div className="w-[13px] h-2 border-t-indigo-500 border-t-2 absolute top-6 left-[-13px] before:block before:absolute before:w-[12px] before:h-[12px] before:left-[-12px] before:top-[-7px] before:rounded-full before:border-2 before:bg-white before:border-indigo-500"></div>
+        </div>
+    ))
+
+    return (
+        <div className="flex-initial md:basis-[47%]">
+            <h3 className="text-indigo-500 font-bold text-xl mb-6 md:text-2xl">
+                {title}
+            </h3>
+            <div className="w-full border-l-2 border-neutral-300 pl-4">
+                {cardList}
+            </div>
+        </div>
+    )
+}
