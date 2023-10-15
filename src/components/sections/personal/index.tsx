@@ -49,7 +49,7 @@ export default async function Personal() {
                 <p className="text-sm mb-6 md:text-md">
                     {data.content.text}
                 </p>
-                <DownloadCv />
+                <DownloadCv mx={false} />
             </div>
             <ul className="flex-initial md:grow md:flex md:flex-col md:justify-center md:align-middle">
                 {list}
