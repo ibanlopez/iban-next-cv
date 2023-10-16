@@ -20,7 +20,7 @@ const NavLinks: FC<NavLinksProps> = ({ navlinks, handleClick}) => {
             return (
                 <li 
                     key={link.id} 
-                    className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-md lg:text-neutral-500"
+                    className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-md lg:text-neutral-506000"
                     onClick={() => handleClick()}
                 >
                     <Link href={link.href} title={link.title}>
@@ -32,7 +32,7 @@ const NavLinks: FC<NavLinksProps> = ({ navlinks, handleClick}) => {
             return (
                 <li 
                     key={link.id} 
-                    className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-sm lg:text-neutral-500"
+                    className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-sm lg:text-neutral-600"
                 >
                     <Link href={link.href} title={link.title}>
                         {link.name}
