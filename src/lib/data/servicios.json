@@ -1,29 +1,101 @@
 {
     "heading": {
-        "text": "Mis",
-        "accent": "servicios"
+        "text": "A clientes",
+        "accent": "finales"
     },
+    "intro": "El desarrollo web es una actividad multidisciplinar que engloba muchas áreas. Con más de 10 años de experiencia como <strong>especialista en web performance</strong>, te ayudo a tomar las decisiones para implementar la mejor solución en base a tu sector y competidores online, desde la tecnología a utilizar, la escalabilidad del sistema según tu negocio vaya creciendo, contenidos, diseño, ejecución y mantenimiento de los sistemas.",
+    "quote": "Las plantillas son para los zapatos, haz que tu dinero sea una inversión y no un coste sin resultados.",
     "services": [
         {
             "id": 0,
             "title": "Desarrollo Web",
             "image": "/img/desarrollo-web.png",
             "imgRounded": false,
-            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+            "text": "Todas las tareas relacionadas con la puesta en marcha de tu negocio online, mediante un proceso de recogida de datos de tus productos o servicios, para poder plasmar tus fortalezas y minimizar tus debilidades frente a tus competidores online.",
+            "activities": [
+                {
+                    "id": 0,
+                    "item": "Análisis datos"
+                },
+                {
+                    "id": 1,
+                    "item": "Contenidos específicos"
+                },
+                {
+                    "id": 2,
+                    "item": "Diseño web"
+                },
+                {
+                    "id": 3,
+                    "item": "Desarrollo y programación"
+                },
+                {
+                    "id": 3,
+                    "item": "Monitorización y actualizaciones"
+                }
+            ]
         },
         {
             "id": 1,
             "title": "Auditorías Web",
             "image": "/img/auditorias-web.png",
             "imgRounded": false,
-            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+            "text": "Cuando has invertido en tu web y los resultados no llegan tal como te prometieron, puede ser por diversos motivos. En este servicio, analizo en profundidad tu web y presento un informe completo mostrando e indicando cláramente que se debe mejorar.",
+            "activities": [
+                {
+                    "id": 0,
+                    "item": "Seo estratégico"
+                },
+                {
+                    "id": 1,
+                    "item": "Seo técnico"
+                },
+                {
+                    "id": 2,
+                    "item": "Web performance"
+                },
+                {
+                    "id": 3,
+                    "item": "Usabilidad y accesibilidad"
+                },
+                {
+                    "id": 4,
+                    "item": "Propuesta de soluciones"
+                }
+            ]
         },
         {
             "id": 2,
             "title": "Conferencias y talleres",
             "image": "/img/conferencias.jpg",
             "imgRounded": true,
-            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+            "text": "Una manera de mejorar el sector del desarrollo web es ayudar a formar profesionales o simplemente dar a conocer nuevas tecnologías, dando conferencias, talleres técnicos o docencia en mi área. He participado y sigo abierto a hacerlo en:",
+            "activities": [
+                {
+                    "id": 0,
+                    "item": "Kschool Madrid"
+                },
+                {
+                    "id": 1,
+                    "item": "IEM Business School Valencia"
+                },
+                {
+                    "id": 2,
+                    "item": "Congreso SEO Profesional Madrid"
+                },
+                {
+                    "id": 3,
+                    "item": "Ensalada SEO Zaragoza"
+                },
+                {
+                    "id": 4,
+                    "item": "WordPress Valencia"
+                },
+                {
+                    "id": 5,
+                    "item": "Digital Valencia"
+                }
+            ]
         }
         
     ]

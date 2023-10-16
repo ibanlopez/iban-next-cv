@@ -66,6 +66,8 @@ type Services = {
         "text": string
         "accent": string
     },
+    "intro": string
+    "quote": string
     "services": [
         {
             "id": number
@@ -73,6 +75,12 @@ type Services = {
             "image": string
             "imgRounded": boolean
             "text": string
+            "activities": [
+                {
+                    "id": number
+                    "item": string
+                }
+            ]
         }
     ]
 }
