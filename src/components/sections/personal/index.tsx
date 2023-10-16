@@ -12,10 +12,10 @@ export default async function Personal() {
     const list = data.content.list.map(item => (
         <li 
             key={item.id}
-            className="text-xs flex flex-row flex-nowrap justify-between mb-2 md:text-sm md:gap-5 md:justify-center"
+            className="text-sm flex flex-row flex-nowrap justify-between mb-2 sm:text-base md:gap-5 md:justify-center"
         >
-            <span className="basis-1/3 md:basis-1/4">{item.prop}</span>
-            <span className="text-neutral-500 basis-3/5 md:basis-1/2 lg:basis-1/3">{item.value}</span>
+            <span className="basis-1/3 sm:basis-[20%] md:basis-[35%] lg:basis1/3 lg:grow-0">{item.prop}</span>
+            <span className="text-neutral-500 basis-3/5 sm:basis-[75%] md:grow lg:basis-1/3">{item.value}</span>
         </li>
     ))
 
@@ -39,7 +39,7 @@ export default async function Personal() {
                 </a>
             </div>
         </div>
-        <div className="bg-white w-full h-full py-8 flex flex-col md:flex-row md:flex-nowrap lg:py-12 px-6 lg:px-12">
+        <div className="bg-white w-full h-full py-8 flex flex-col md:flex-row md:flex-nowrap md:gap-9 lg:py-12 lg:gap-32 px-6 lg:px-12">
             <div className="flex-initial md:basis-1/2">
                 <h2 className="text-black font-bold text-2xl mb-4">
                     {`${data.content.heading.text} `}
@@ -47,7 +47,7 @@ export default async function Personal() {
                         {data.content.heading.accent}
                     </span>
                 </h2>
-                <p className="text-sm mb-6 md:text-md">
+                <p className="text-base mb-6 lg:mb-10">
                     {data.content.text}
                 </p>
                 <DownloadCv mx={false} />

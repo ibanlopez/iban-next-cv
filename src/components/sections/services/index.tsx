@@ -23,8 +23,8 @@ export default async function Services({ heading }: { heading: string }) {
                         </span>
                     </h2>
                 </div>
-                <p className="text-sm mb-6 sm:text-base" dangerouslySetInnerHTML={{ __html: data.intro }} />
-                <p className="text-base font-light text-indigo-600 mb-10 sm:text-lg lg:text-center">{data.quote}</p>
+                <p className="text-base mb-6 sm:text-base" dangerouslySetInnerHTML={{ __html: data.intro }} />
+                <p className="text-lg font-light text-indigo-600 mb-10 sm:text-lg lg:text-center lg:font-semibold">{data.quote}</p>
                 <ul className="flex flex-col sm:w-3/4 sm:mx-auto lg:flex-row lg:w-full lg:gap-6" role="list">
                     <ServicesList services={data.services} />
                 </ul>
@@ -51,7 +51,7 @@ export default async function Services({ heading }: { heading: string }) {
                     </div>
                     <div className="flex-initial lg:basis-[58%]">
                         <h3 className="font-semibold text-center text-lg mb-4 sm:text-xl lg:text-xl">{data.introBlock.title}</h3>
-                        <div className="w-full text-sm sm:text-base" dangerouslySetInnerHTML={{ __html: data.introBlock.text }} />
+                        <div className="w-full text-base" dangerouslySetInnerHTML={{ __html: data.introBlock.text }} />
                         <CtaButton mx={true} text="Tomemos un té" />
                     </div>
                 </div>

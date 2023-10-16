@@ -32,9 +32,9 @@ export default function ServicesList({
                     className={item.imgRounded ? 'rounded-xl' : 'rounded-none'}
                 />
             </div>
-            <h3 className="font-semibold text-lg mb-4 sm:text-xl lg:text-lg">{item.title}</h3>
-            <p className="text-sm mb-4 sm:text-base lg:text-sm">{item.text}</p>
-            <ul className="w-full text-sm list-disc list-inside sm:text-base lg:text-sm" role="list">
+            <h3 className="font-semibold text-lg mb-4 sm:text-xl">{item.title}</h3>
+            <p className="text-base mb-4 sm:text-base">{item.text}</p>
+            <ul className="w-full text-sm list-disc list-inside sm:text-base lg:text-base" role="list">
                 <>
                     {item.activities.map(itemList => (
                         <li key={itemList.id} className="mb-2 font-medium">{itemList.item}</li>
