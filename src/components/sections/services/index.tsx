@@ -52,7 +52,7 @@ export default async function Services({ heading }: { heading: string }) {
                     <div className="flex-initial lg:basis-[58%]">
                         <h3 className="font-semibold text-center text-lg mb-4 sm:text-xl lg:text-xl">{data.introBlock.title}</h3>
                         <div className="w-full text-base" dangerouslySetInnerHTML={{ __html: data.introBlock.text }} />
-                        <CtaButton mx={true} text="Tomemos un té" />
+                        <CtaButton mx={true} text="Tomemos un té" hoverText="O un café" />
                     </div>
                 </div>
             </div>
