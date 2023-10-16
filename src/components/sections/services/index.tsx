@@ -22,7 +22,7 @@ export default async function Services({ heading }: { heading: string }) {
                     className={item.imgRounded ? 'rounded-xl' : 'rounded-none'}
                 />
             </div>
-            <h4>{item.title}</h4>
+            <h3>{item.title}</h3>
             <p>{item.text}</p>
         </li>
     ))
@@ -32,12 +32,12 @@ export default async function Services({ heading }: { heading: string }) {
             <SectionHeading heading={heading} />
             <div className="bg-white w-full h-full pt-8 px-4 md:px-10 lg:py-12 lg:px-12">
                 <div className="w-full">
-                    <h3 className="text-black font-bold text-2xl mb-6">
+                    <h2 className="text-black font-bold text-2xl mb-6">
                         {`${data.heading.text} `}
                         <span className="text-indigo-600">
                             {data.heading.accent}
                         </span>
-                    </h3>
+                    </h2>
                 </div>
                 <ul className="flex flex-col">
                     {servicesList}
