@@ -12,15 +12,15 @@
         },
         {
             "id": 1,
-            "name": "Currículum",
-            "href": "curriculum",
-            "title": "Ver curriculum"
-        },
-        {
-            "id": 2,
             "name": "Servicios",
             "href": "servicios-desarrollo-web",
             "title": "Ver servicios"
+        },
+        {
+            "id": 2,
+            "name": "Currículum",
+            "href": "curriculum",
+            "title": "Ver curriculum"
         },
         {
             "id": 3,

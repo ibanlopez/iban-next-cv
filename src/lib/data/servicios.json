@@ -98,5 +98,15 @@
             ]
         }
         
-    ]
+    ],
+    "companies": {
+        "text": "A agencias",
+        "accent": "digitales"
+    },
+    "introBlock": {
+        "image": "/img/agencia-wanatop.jpg",
+        "imageAlt": "Equipo agencia Wanatop en 2018",
+        "title": "Sinergias entre profesionales",
+        "text": "<p class=\"mb-4\">He colaborado con varias agencias de marketing online, desarrollo web, agencias SEO o desarrolladores web independientes, bien en proyectos puntuales para desarrollar webs de sus clientes o bien como refuerzo a su equipo de IT.</p><p class=\"mb-8\">Si necesitas un <strong>desarrollador web freelance</strong>, o simplemente que forme a tu equipo en cualquier tecnología de desarrollo o entorno de trabajo, no dudes en llamarme, siempre estoy abierto a hacer amigos.</p>"
+    }
 }

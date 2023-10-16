@@ -23,7 +23,7 @@ export default async function Personal() {
     <section className="w-full mx-auto shadow-lg rounded-2xl overflow-hidden lg:max-w-5xl">
         <div className="bg-indigo-600 w-full h-full flex flex-col items-center py-10 px-6 bg-header-bg bg-no-repeat bg-top bg-cover md:flex-row md:justify-between lg:py-2 lg:px-12">
             <div className="w-[240px] h-[240px] md:w-[280px] md:h-[280px] lg:w-[284px] lg:h-[284px] lg:border-2 lg:border-white lg:translate-y-8 lg:shadow-md lg:shadow-gray-400 lg:hover:translate-y-7 lg:hover:shadow-lg lg:hover:shadow-gray-500 lg:transition-all lg:duration-300">
-                <Image src={pic} alt="Foto de Ibán López" className="rounded-full lg:rounded-none" />
+                <Image priority src={pic} alt="Foto de Ibán López" className="rounded-full lg:rounded-none" />
             </div>
             <div className="text-white flex flex-col pt-8 text-center md:grow">
                 <h1 className="order-2 text-lg lg:text-2xl lg:font-light">{data.header.role}</h1>

@@ -82,5 +82,15 @@ type Services = {
                 }
             ]
         }
-    ]
+    ],
+    "companies": {
+        "text": string
+        "accent": string
+    },
+    "introBlock": {
+        "image": string
+        "imageAlt": string
+        "title": string
+        "text": string
+    }
 }
