@@ -3,6 +3,7 @@ import Image from "next/image";
 import pic from "./iban-lopez.jpg";
 import IconLinkedin from "@/components/icons/icon-linkedin";
 import DownloadCv from '@/components/download-cv';
+import IconGithub from '@/components/icons/icon-github';
 
 export default async function Personal() {
 
@@ -28,15 +29,26 @@ export default async function Personal() {
             <div className="text-white flex flex-col pt-8 text-center md:grow">
                 <h1 className="order-2 text-lg lg:text-2xl lg:font-light">{data.header.role}</h1>
                 <p className="order-1 text-4xl lg:text-5xl font-bold mb-6">{data.header.name}</p>
-                <a
-                    className="order-3 pt-6 self-center inline-block"
-                    href="https://linkedin.com/in/ibanlopez/"
-                    title="Perfil de LinkedIn"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    <IconLinkedin width="2.5rem" fill="white" color="white" />
-                </a>
+                <div className="flex flex-row order-3 w-full justify-center items-center gap-4">
+                    <a
+                        className="pt-6 h-auto"
+                        href="https://linkedin.com/in/ibanlopez/"
+                        title="Perfil de LinkedIn"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <IconLinkedin width="2.5rem" fill="white" color="white" />
+                    </a>
+                    <a
+                        className="pt-6 h-auto w-auto"
+                        href="https://github.com/ibanlopez/iban-next-cv"
+                        title="Repositorio de la web"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <IconGithub width="2.5rem" fill="none" strokewidth="0" />
+                    </a>
+                </div>
             </div>
         </div>
         <div className="bg-white w-full h-full py-8 flex flex-col md:flex-row md:flex-nowrap md:gap-9 lg:py-12 lg:gap-32 px-6 lg:px-12">
