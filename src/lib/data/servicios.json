@@ -66,10 +66,10 @@
         },
         {
             "id": 2,
-            "title": "Conferencias y talleres",
+            "title": "Formación y talleres",
             "image": "/img/conferencias.jpg",
             "imgRounded": true,
-            "text": "Una manera de mejorar el sector del desarrollo web es ayudar a formar profesionales o simplemente dar a conocer nuevas tecnologías, dando conferencias, talleres técnicos o docencia en mi área. He participado y sigo abierto a hacerlo en:",
+            "text": "Me encanta mi trabajo y la tecnología, así como enseñar y explicarla. Ofrezco formación \"in company\" para enseñar a sus departamentos de IT o becarios, técnicas de WPO, SEO y soluciones de entornos de desarrollo, también en escuelas de negocios.",
             "activities": [
                 {
                     "id": 0,
