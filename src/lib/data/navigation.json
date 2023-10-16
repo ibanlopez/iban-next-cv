@@ -17,13 +17,19 @@
             "title": "Ver servicios"
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "Currículum",
             "href": "curriculum",
             "title": "Ver curriculum"
         },
         {
-            "id": 3,
+            "id": 4,
+            "name": "Tecnologías",
+            "href": "#",
+            "title": "Ver tecnologías"
+        },
+        {
+            "id": 5,
             "name": "Porfolio",
             "href": "#",
             "title": "Ver profolio"
