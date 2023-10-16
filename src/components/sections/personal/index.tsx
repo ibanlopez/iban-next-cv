@@ -33,8 +33,9 @@ export default async function Personal() {
                     href="https://linkedin.com/in/ibanlopez/"
                     title="Perfil de LinkedIn"
                     rel="noopener noreferrer"
+                    target="_blank"
                 >
-                    <IconLinkedin width="2.5rem" fill="white" color="#e5e7eb" />
+                    <IconLinkedin width="2.5rem" fill="white" color="white" />
                 </a>
             </div>
         </div>
