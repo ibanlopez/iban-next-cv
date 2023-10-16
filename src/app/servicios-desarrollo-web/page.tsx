@@ -1,6 +1,8 @@
+import { promises as fs } from 'fs'
 import type { Metadata } from 'next'
 import { openGraphImage, siteName, locale, type } from '@/app/shared-metadata'
 import Services from "@/components/sections/services";
+import Wpo from '@/components/sections/wpo';
 
 export const metadata: Metadata = {
   title: "Servicios de desarrollo web | Ibán López",
@@ -20,13 +22,18 @@ export const metadata: Metadata = {
 }
 
 
-export default function Servicios() {
+export default async function Servicios() {
+
+  const fileWpoData = await fs.readFile(process.cwd() + '/src/lib/data/servicios.json', 'utf-8');
+  const data: Services = JSON.parse(fileWpoData)
+  const wpoData = data.wpo
 
   const sectionTitle = "Servicios web"
 
   return (
     <>
       <Services heading={sectionTitle} />
+      <Wpo wpoData={wpoData} />
     </>
   )
 }

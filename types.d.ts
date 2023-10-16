@@ -32,6 +32,12 @@ type Personal = {
             }
             
         ]
+    },
+    "wpo": {
+        "question": string
+        "answer": string
+        "metricas": string
+        "link": string
     }
 }
 
@@ -58,7 +64,13 @@ type Career = {
             "company": string
             "text": string
         }
-    ]
+    ],
+    "wpo": {
+        "question": string
+        "answer": string
+        "metricas": string
+        "link": string
+    }
 }
 
 type Services = {
@@ -92,5 +104,11 @@ type Services = {
         "imageAlt": string
         "title": string
         "text": string
+    },
+    "wpo": {
+        "question": string
+        "answer": string
+        "metricas": string
+        "link": string
     }
 }

@@ -37,5 +37,11 @@
             }
             
         ]
+    },
+    "wpo": {
+        "question": "¿Qué me diferencia del resto?",
+        "answer": "La calidad de mi trabajo. Web performance.",
+        "metricas": "Ver PageSpeed de esta URL",
+        "link": "https://pagespeed.web.dev/analysis/https-iban-next-cv-vercel-app/7s72zv999u?hl=es&form_factor=mobile"
     }
 }

@@ -43,5 +43,11 @@
             "company": "Freelance",
             "text": "Desarrollando proyectos web para empresas y colaborando como developer para agencias de marketing."
         }
-    ]
+    ],
+    "wpo": {
+        "question": "¿Necesitas un profesional de verdad?",
+        "answer": "La diferencia está en el web performance. Llámame.",
+        "metricas": "Ver PageSpeed de esta URL",
+        "link": "https://pagespeed.web.dev/analysis/https-iban-next-cv-vercel-app-curriculum/iwgvfanjhr?hl=es&form_factor=mobile"
+    }
 }
