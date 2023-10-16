@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   creator: 'Ibán López',
   publisher: 'Ibán López',
   authors: [{name: 'Ibán López'}],
+  themeColor: '#4f46e5',
   robots: {
       index: false,
       follow: false,
