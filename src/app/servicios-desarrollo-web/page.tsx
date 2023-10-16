@@ -9,7 +9,10 @@ export const metadata: Metadata = {
     canonical:'/servicios-desarrollo-web'
   },
   openGraph: {
-    ...openGraphImage
+    ...openGraphImage,
+    title: 'Servicios de desarrollo web | Ibán López',
+    description: 'Servicios que ofrezco como desarrollador web, desarrollador fullstack, diseño web, auditorías web, web performance a empresas o clientes particulares.',
+    url: '/servicios-desarrollo-web'
   }
 }
 

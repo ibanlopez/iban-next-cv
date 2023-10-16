@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     canonical:'/curriculum'
   },
   openGraph: {
-    ...openGraphImage
+    ...openGraphImage,
+    title: 'Curriculum Vitae | Ibán López',
+    description: 'Currículum vitae de Ibán López, formación y experiencia profesional en el campo del desarrollo web y programación front end, backend y full stack.',
+    url: '/curriculum'
   }
 }
 

@@ -8,6 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_HOSTNAME}`),
+  referrer: 'origin-when-cross-origin',
+  creator: 'Ibán López',
   robots: {
       index: false,
       follow: false,
@@ -16,6 +18,11 @@ export const metadata: Metadata = {
       noimageindex: true,
       nosnippet: true,
       nositelinkssearchbox: true,
+  },
+  openGraph: {
+    siteName: 'Ibán López desarrollador web',
+    locale: 'es_ES',
+    type: 'website'
   }
 }
 
