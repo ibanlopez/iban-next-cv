@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_HOSTNAME}`),
   referrer: 'origin-when-cross-origin',
   creator: 'Ibán López',
+  publisher: 'Ibán López',
+  authors: [{name: 'Ibán López'}],
   robots: {
       index: false,
       follow: false,
@@ -18,11 +20,6 @@ export const metadata: Metadata = {
       noimageindex: true,
       nosnippet: true,
       nositelinkssearchbox: true,
-  },
-  openGraph: {
-    siteName: 'Ibán López desarrollador web',
-    locale: 'es_ES',
-    type: 'website'
   }
 }
 

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { openGraphImage } from '@/app/shared-metadata'
+import { openGraphImage, siteName, locale, type } from '@/app/shared-metadata'
 import Services from "@/components/sections/services";
 
 export const metadata: Metadata = {
@@ -12,7 +12,10 @@ export const metadata: Metadata = {
     ...openGraphImage,
     title: 'Servicios de desarrollo web | Ibán López',
     description: 'Servicios que ofrezco como desarrollador web, desarrollador fullstack, diseño web, auditorías web, web performance a empresas o clientes particulares.',
-    url: '/servicios-desarrollo-web'
+    url: '/servicios-desarrollo-web',
+    ...siteName,
+    ...locale,
+    ...type
   }
 }
 
