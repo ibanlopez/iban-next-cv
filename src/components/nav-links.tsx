@@ -1,23 +1,47 @@
+'use client'
+
 import Link from "next/link";
+import { FC } from "react";
 
-export default function NavLinks({
-    navlinks
-}: {
+interface NavLinksProps {
+    handleClick?: () => {} | null | undefined;
     navlinks: {
-        id: number
-        name: string
-        href: string
-        title: string
-    }[]
-}) {
+        id: number;
+        name: string;
+        href: string;
+        title: string;
+    }[];
+ }
 
-    const links = navlinks.map(link => (
-        <li key={link.id} className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-sm lg:text-slate-500">
-            <Link href={link.href} title={link.title}>
-                {link.name}
-            </Link>
-        </li>
-    ))
+const NavLinks: FC<NavLinksProps> = ({ navlinks, handleClick}) => {
+
+    const links = navlinks.map(link => {
+        if (handleClick) {
+            return (
+                <li 
+                    key={link.id} 
+                    className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-md lg:text-neutral-500"
+                    onClick={() => handleClick()}
+                >
+                    <Link href={link.href} title={link.title}>
+                        {link.name}
+                    </Link>
+                </li>
+            )
+        } else {
+            return (
+                <li 
+                    key={link.id} 
+                    className="text-white mb-8 font-light lg:mb-0 lg:font-normal lg:text-sm lg:text-neutral-500"
+                >
+                    <Link href={link.href} title={link.title}>
+                        {link.name}
+                    </Link>
+                </li>
+            )
+        }
+        
+    })
 
 
     return (
@@ -26,3 +50,5 @@ export default function NavLinks({
         </ul>
     )
 }
+
+export default NavLinks

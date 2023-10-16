@@ -15,13 +15,13 @@ export default async function Personal() {
             className="text-xs flex flex-row flex-nowrap justify-between mb-2 md:text-sm md:gap-5 md:justify-center"
         >
             <span className="basis-1/3 md:basis-1/4">{item.prop}</span>
-            <span className="text-gray-400 basis-3/5 md:basis-1/2 lg:basis-1/3">{item.value}</span>
+            <span className="text-neutral-500 basis-3/5 md:basis-1/2 lg:basis-1/3">{item.value}</span>
         </li>
     ))
 
   return (
     <section className="w-full mx-auto shadow-lg rounded-2xl overflow-hidden lg:max-w-5xl">
-        <div className="bg-indigo-500 w-full h-full flex flex-col items-center py-10 px-6 bg-header-bg bg-no-repeat bg-top bg-cover md:flex-row md:justify-between lg:py-2 lg:px-12">
+        <div className="bg-indigo-600 w-full h-full flex flex-col items-center py-10 px-6 bg-header-bg bg-no-repeat bg-top bg-cover md:flex-row md:justify-between lg:py-2 lg:px-12">
             <div className="w-[240px] h-[240px] md:w-[280px] md:h-[280px] lg:w-[284px] lg:h-[284px] lg:border-2 lg:border-white lg:translate-y-8 lg:shadow-md lg:shadow-gray-400 lg:hover:translate-y-7 lg:hover:shadow-lg lg:hover:shadow-gray-500 lg:transition-all lg:duration-300">
                 <Image src={pic} alt="Foto de Ibán López" className="rounded-full lg:rounded-none" />
             </div>
@@ -42,7 +42,7 @@ export default async function Personal() {
             <div className="flex-initial md:basis-1/2">
                 <h2 className="text-black font-bold text-2xl mb-4">
                     {`${data.content.heading.text} `}
-                    <span className="text-indigo-500">
+                    <span className="text-indigo-600">
                         {data.content.heading.accent}
                     </span>
                 </h2>

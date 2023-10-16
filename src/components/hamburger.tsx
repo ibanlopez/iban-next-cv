@@ -2,13 +2,24 @@
 
 import { useState } from 'react'
 import { Transition } from '@headlessui/react'
+import NavLinks from "./nav-links";
 import Bars3Icon from '@heroicons/react/24/outline/Bars3Icon'
 import XMarkIcon from '@heroicons/react/24/outline/XMarkIcon'
 
-const Hamburger = ({ children }: { children: React.ReactNode }) => {
-    const [show, setShow] = useState(false)
+const Hamburger = ({
+    navlinks
+}: { 
+    navlinks: {
+        id: number
+        name: string
+        href: string
+        title: string
+    }[] 
+}) => {
+    
+    const [show, setShow] = useState<boolean>(false)
 
-    const handleClick = () => {
+    const handleClick = (): void => {
         setShow(!show)
     }
 
@@ -21,7 +32,7 @@ const Hamburger = ({ children }: { children: React.ReactNode }) => {
                 aria-controls="navList"
                 aria-expanded={show}
             >
-                <span className="sr-only">Menu</span>
+                <span className="sr-only">Menu web</span>
                 {show ? (
                     <XMarkIcon className="w-8 stroke-2 stroke-white" />
                 ) : (
@@ -29,7 +40,7 @@ const Hamburger = ({ children }: { children: React.ReactNode }) => {
                 )}
             </button>
             <Transition
-                className="flex-initial w-screen max-w-screen h-screen fixed top-[48px] bg-indigo-500"
+                className="flex-initial w-screen max-w-screen h-screen fixed z-50 top-[48px] bg-indigo-600"
                 id="navList"
                 show={show}
                 enter="transition-transform ease-linear duration-300"
@@ -39,7 +50,7 @@ const Hamburger = ({ children }: { children: React.ReactNode }) => {
                 leaveFrom="translate-x-0"
                 leaveTo="translate-x-full"
             >
-                {children}
+                <NavLinks navlinks={navlinks} handleClick={handleClick} />
             </Transition>
         </>
     )

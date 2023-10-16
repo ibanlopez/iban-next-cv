@@ -34,7 +34,7 @@ export default async function Services({ heading }: { heading: string }) {
                 <div className="w-full">
                     <h3 className="text-black font-bold text-2xl mb-6">
                         {`${data.heading.text} `}
-                        <span className="text-indigo-500">
+                        <span className="text-indigo-600">
                             {data.heading.accent}
                         </span>
                     </h3>

@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs'
 import MediaRendering from "./media-rendering";
 import Logo from "./logo";
-import NavLinks from "./nav-links";
 import Hamburger from "./hamburger";
+import NavLinks from './nav-links';
 
 export default async function Navbar() {
 
@@ -13,9 +13,7 @@ export default async function Navbar() {
         <nav className="relative w-full bg-transparent py-2 flex flex-row items-center lg:justify-between lg:px-4 lg:py-6 lg:max-w-5xl lg:mx-auto">
             <Logo {...data.logo} />
             <MediaRendering minWidth={null} maxWidth="1023px">
-                <Hamburger>
-                    <NavLinks navlinks={data.navlinks} />
-                </Hamburger>
+                <Hamburger navlinks={data.navlinks} />
             </MediaRendering>
             <MediaRendering minWidth="1024px" maxWidth={null}>
                 <NavLinks navlinks={data.navlinks} />
