@@ -7,8 +7,7 @@ import Footer from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ibán López CV',
-  description: 'Versión web de curriculum vitae de Ibán López',
+  metadataBase: new URL(`${process.env.NEXT_PUBLIC_HOSTNAME}`),
   robots: {
       index: false,
       follow: false,
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
       noimageindex: true,
       nosnippet: true,
       nositelinkssearchbox: true,
-  },
+  }
 }
 
 export default function RootLayout({

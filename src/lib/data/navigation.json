@@ -12,14 +12,14 @@
         },
         {
             "id": 1,
-            "name": "Carrera profesional",
-            "href": "trabajo",
-            "title": "Ver carrera"
+            "name": "Currículum",
+            "href": "curriculum",
+            "title": "Ver curriculum"
         },
         {
             "id": 2,
             "name": "Servicios",
-            "href": "servicios",
+            "href": "servicios-desarrollo-web",
             "title": "Ver servicios"
         },
         {
