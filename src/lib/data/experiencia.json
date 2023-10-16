@@ -11,21 +11,21 @@
         {
             "id": 1,
             "title": "Blogger y SEO",
-            "date": "mar. 2011 - ago. 2012. (1 año y 6 meses)",
+            "date": "mar. 2011 - ago. 2012",
             "company": "Elixir Comunicació, SL",
             "text": "Escribiendo artículos para una web de tráfico intenso y como SEO mejorando el posicionamiento en Google."
         },
         {
             "id": 2,
             "title": "Becario en formación",
-            "date": "dic. 2012 - mar. 2013. (4 meses)",
+            "date": "dic. 2012 - mar. 2013",
             "company": "Marketing Online Valencia, SL",
             "text": "Analizando proyectos SEO y aplicando conocimientos aprendidos en el Máster SEO."
         },
         {
             "id": 3,
             "title": "Consultor SEO, desarrollador web",
-            "date": "jun. 2013 - dic. 2013 (7 meses)",
+            "date": "jun. 2013 - dic. 2013",
             "company": "SeologikLab, SL",
             "text": "Socio fundador, CTO, desarrollador web, WordPress, Web performance."
         },
@@ -38,8 +38,15 @@
         },
         {
             "id": 5,
+            "title": "Profesor docente",
+            "date": "oct. 2016 - ene. 2020",
+            "company": "Kschool",
+            "text": "Impartiendo clases en 3 ediciones del Máster SEO Profesional de Kschool, en materias de Web Performance, HTML y SEO para CMS."
+        },
+        {
+            "id": 6,
             "title": "Desarrollador web especialista en WPO",
-            "date": "ene. 2014 - actualidad (10 años)",
+            "date": "ene. 2014 - actualidad",
             "company": "Freelance",
             "text": "Desarrollando proyectos web para empresas y colaborando como developer para agencias de marketing."
         }
