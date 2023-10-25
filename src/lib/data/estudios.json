@@ -1,0 +1,40 @@
+{
+    "title": "Estudios",
+    "cards": [
+        {
+            "id": 0,
+            "title": "FP II Electrónica Telecomunicaciones",
+            "date": "1986 - 1991",
+            "company": "Escuelas Profesionales Luis Amigó",
+            "text": "5 años de formación profesional especializada en electrónica de reparaciones y mantenimiento."
+        },
+        {
+            "id": 1,
+            "title": "Electrónica Industrial y Autómatas Programables",
+            "date": "1995 - 1997",
+            "company": "Academia MADOC Valencia",
+            "text": "2 años de especialidad superior en electrónica industrial y programación de PLCs."
+        },
+        {
+            "id": 2,
+            "title": "Técnicas SEO. Posicionamiento en buscadores.",
+            "date": "2011 - 2011 (1 mes)",
+            "company": "Instituto Tecnológico AIDO",
+            "text": "Curso de especialización en SEO técnico en el Parque tecnológico de Valencia."
+        },
+        {
+            "id": 3,
+            "title": "Curso especialización en SEO, SEM y E-commerce",
+            "date": "2012 - 2012 (1 mes)",
+            "company": "Centro Formación Postgrado Universidad Politécnica de Valencia",
+            "text": "Curso de técnicas avanzadas en posicionamiento web y marketing online en el CFP de la UPV."
+        },
+        {
+            "id": 4,
+            "title": "II Máster SEO Profesional",
+            "date": "2012 - 2013",
+            "company": "KSCHOOL Madrid",
+            "text": "Segunda edición del Máster profesional con los mejores docentes, referentes cada uno dentro de su especialidad en España."
+        }
+    ]
+}

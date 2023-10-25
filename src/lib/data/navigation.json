@@ -1,0 +1,38 @@
+{
+    "logo": {
+        "name": "Ibán",
+        "surname": "López"
+    },
+    "navlinks": [
+        {
+            "id": 0,
+            "name": "Presentación",
+            "href": "/",
+            "title": "Ver presentación"
+        },
+        {
+            "id": 1,
+            "name": "Servicios",
+            "href": "servicios-desarrollo-web",
+            "title": "Ver servicios"
+        },
+        {
+            "id": 2,
+            "name": "Currículum",
+            "href": "curriculum",
+            "title": "Ver curriculum"
+        },
+        {
+            "id": 3,
+            "name": "Tecnologías",
+            "href": "#",
+            "title": "Ver tecnologías"
+        },
+        {
+            "id": 4,
+            "name": "Porfolio",
+            "href": "#",
+            "title": "Ver profolio"
+        }
+    ]
+}

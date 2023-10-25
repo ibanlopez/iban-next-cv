@@ -1,0 +1,121 @@
+{
+    "heading": {
+        "text": "A clientes",
+        "accent": "finales"
+    },
+    "intro": "El desarrollo web es una actividad multidisciplinar que engloba muchas áreas. Con más de 10 años de experiencia como <strong>especialista en web performance</strong>, te ayudo a tomar las decisiones para implementar la mejor solución en base a tu sector y competidores online, desde la tecnología a utilizar, la escalabilidad del sistema según tu negocio vaya creciendo, contenidos, diseño, ejecución y mantenimiento de los sistemas.",
+    "quote": "Las plantillas son para los zapatos, haz que tu dinero sea una inversión y no un coste sin resultados.",
+    "services": [
+        {
+            "id": 0,
+            "title": "Desarrollo Web",
+            "image": "/img/desarrollo-web.png",
+            "imgRounded": false,
+            "text": "Todas las tareas relacionadas con la puesta en marcha de tu negocio online, mediante un proceso de recogida de datos de tus productos o servicios, para poder plasmar tus fortalezas y minimizar tus debilidades frente a tus competidores online.",
+            "activities": [
+                {
+                    "id": 0,
+                    "item": "Análisis datos"
+                },
+                {
+                    "id": 1,
+                    "item": "Contenidos específicos"
+                },
+                {
+                    "id": 2,
+                    "item": "Diseño web"
+                },
+                {
+                    "id": 3,
+                    "item": "Desarrollo y programación"
+                },
+                {
+                    "id": 4,
+                    "item": "Monitorización y actualizaciones"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Auditorías Web",
+            "image": "/img/auditorias-web.png",
+            "imgRounded": false,
+            "text": "Cuando has invertido en tu web y los resultados no llegan tal como te prometieron, puede ser por diversos motivos. En este servicio, analizo en profundidad tu web y presento un informe completo mostrando e indicando cláramente que se debe mejorar.",
+            "activities": [
+                {
+                    "id": 0,
+                    "item": "Seo estratégico"
+                },
+                {
+                    "id": 1,
+                    "item": "Seo técnico"
+                },
+                {
+                    "id": 2,
+                    "item": "Web performance"
+                },
+                {
+                    "id": 3,
+                    "item": "Usabilidad y accesibilidad"
+                },
+                {
+                    "id": 4,
+                    "item": "Propuesta de soluciones"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Formación y talleres",
+            "image": "/img/conferencias.jpg",
+            "imgRounded": true,
+            "text": "Me encanta mi trabajo y la tecnología, así como enseñar y explicarla. Ofrezco formación \"in company\" para enseñar a sus departamentos de IT o becarios, técnicas de WPO, SEO y soluciones de entornos de desarrollo, también en escuelas de negocios.",
+            "activities": [
+                {
+                    "id": 0,
+                    "item": "Kschool Madrid"
+                },
+                {
+                    "id": 1,
+                    "item": "IEM Business School Valencia"
+                },
+                {
+                    "id": 2,
+                    "item": "Congreso SEO Profesional Madrid"
+                },
+                {
+                    "id": 3,
+                    "item": "Ensalada SEO Zaragoza"
+                },
+                {
+                    "id": 4,
+                    "item": "WordPress Valencia"
+                },
+                {
+                    "id": 5,
+                    "item": "Digital Valencia"
+                }
+            ]
+        }
+        
+    ],
+    "companies": {
+        "text": "A agencias",
+        "accent": "digitales"
+    },
+    "introBlock": {
+        "image": "/img/agencia-wanatop.jpg",
+        "imageAlt": "Equipo agencia Wanatop en 2018",
+        "title": "Sinergias entre profesionales",
+        "text": "<p class=\"mb-4\">He colaborado con varias agencias de marketing online, desarrollo web, agencias SEO o desarrolladores web independientes, bien en proyectos puntuales para desarrollar webs de sus clientes o bien como refuerzo a su equipo de IT.</p><p class=\"mb-8\">Si necesitas un <strong>desarrollador web freelance</strong>, o simplemente que forme a tu equipo en cualquier tecnología de desarrollo o entorno de trabajo, no dudes en llamarme, siempre estoy abierto a hacer amigos.</p>"
+    },
+    "wpo": {
+        "question": "¿Por qué tu web no funciona?",
+        "answer": "Tu web podría tener esta calidad. Llámame.",
+        "metricas": "Ver PageSpeed de esta URL",
+        "link": "https://pagespeed.web.dev/analysis/https-iban-next-cv-vercel-app-servicios-desarrollo-web/h0fuik8ydp?hl=es&form_factor=mobile"
+    }
+}
+
+
+
